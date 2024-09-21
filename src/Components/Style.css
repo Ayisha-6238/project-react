@@ -1,0 +1,225 @@
+/* Nav-bar section */
+
+.link-style {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar h6 {
+    font-size: 18px;
+    color: brown;
+    padding-left: 30px;
+}
+
+.nav-bar img {
+    width: 300px;
+    padding-left: 50px;
+}
+
+
+.search input {
+    border: none;
+    border-left: 2px solid rgba(64, 64, 64, 0.652);
+    border-top: 2px solid rgba(64, 64, 64, 0.652);
+    border-bottom: 2px solid rgba(64, 64, 64, 0.652);
+}
+
+.search button {
+    border: none;
+    border-right: 2px solid rgba(64, 64, 64, 0.652);
+    border-top: 2px solid rgba(64, 64, 64, 0.652);
+    border-bottom: 2px solid rgba(64, 64, 64, 0.652);
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.donate-btn {
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+
+/* Hero section */
+
+
+.hero-section {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+
+.hero-section h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 136, 136);
+}
+
+.books {
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.books img {
+    width: 240px;
+    height: 140px;
+    margin: 10px;
+}
+
+.books img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+/* Book Detail section */
+
+.vdo-dis {
+    width: 830px;
+    border: 2px rgba(61, 61, 61, 0.514) solid;
+    margin-left: 140px;
+    height: 80px;
+}
+
+.buttons {
+    height: 30px;
+    margin: auto;
+    background-color: brown;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.buttons:hover {
+    background-color: rgb(74, 20, 20);
+}
+
+.next-btn {
+    height: 30px;
+    margin: auto;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: brown;
+}
+.next-btn:hover{
+    color: rgb(216, 10, 10);
+}
+
+.more-btn {
+    height: 30px;
+    margin: auto;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.about-book {
+    width: 830px;
+    margin-left: 140px;
+}
+
+.about-book img {
+    width: 180px;
+}
+
+.about-book h4 {
+    padding-top: 20px;
+    text-align: left;
+    font-weight: 650;
+    color: brown;
+}
+
+.about-book h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* footer */
+
+.footer-sec {
+    background-color: rgba(168, 168, 168, 0.607);
+    padding-top: 20px;
+}
+
+.footer-sec a {
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-sec h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-sec p {
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+/* all books page */
+
+.library h2 {
+    color: brown;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.book-cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book-card{
+    background-color: rgb(219, 219, 219);
+    margin: 7px;
+    width: 260px;
+    height: 410px;
+    position: relative;
+}
+
+.book-card h5{
+    color: brown;
+}
+
+.book-card img {
+    width: 220px;
+    height: 127px;
+}
+
+.book-card p {
+    font-size: 13px;
+    line-height: 10px;
+}
+
+.card-bts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-card button{
+    border: none;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 13px;
+    width: 128px;
+    height: 28px;
+}
+
+.book-card .button1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.book-card .button2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
